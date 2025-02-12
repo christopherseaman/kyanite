@@ -1,0 +1,39 @@
+/* Kyanite Sidebar Styles */
+.kyanite-chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+}
+
+.kyanite-chat-history {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid var(--background-modifier-border);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.kyanite-message {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.kyanite-user-message {
+    background-color: var(--background-secondary);
+    text-align: right;
+}
+
+.kyanite-assistant-message {
+    background-color: var(--background-primary-alt);
+    text-align: left;
+}
+
+.kyanite-chat-input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+}

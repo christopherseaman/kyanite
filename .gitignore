@@ -1,0 +1,30 @@
+# Reference folders
+cline/
+obsidian-developer-docs/
+obsidian-sample-plugin/
+obsidian-bmo-chatbot/
+old-src/
+
+# Build output
+main.js
+*.js.map
+*.tar.gz
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Obsidian plugin specific
+.obsidian/
+.DS_Store
+
+# Logs
+*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo

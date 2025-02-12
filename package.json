@@ -1,0 +1,23 @@
+{
+	"name": "kyanite-obsidian-plugin",
+	"version": "0.0.1",
+	"description": "AI-powered assistant for Obsidian",
+	"main": "src/main.ts",
+	"scripts": {
+		"dev": "node -r dotenv/config src/main.ts",
+		"build": "obsidian-plugin build",
+		"version": "node version-bump.mjs"
+	},
+	"keywords": ["obsidian", "ai", "assistant"],
+	"author": "Christopher Seaman",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"obsidian": "latest",
+		"typescript": "^4.5.2",
+		"dotenv": "^16.0.3"
+	},
+	"dependencies": {
+		"@anthropic-ai/sdk": "^0.18.0"
+	}
+}
